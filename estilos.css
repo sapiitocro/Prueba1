@@ -1,0 +1,152 @@
+*{
+	margin:0;
+	padding:0;
+}
+#menu{
+
+	width: 100%;
+	background:  #ea9337;
+	height:50px;
+	
+	
+
+	
+
+}
+#header{
+
+	width: 100%;
+	box-shadow: 1px 1px 5px #000;
+	height:130px;
+
+}
+#menu ul a{
+	text-decoration:none;
+	color:#e4e1dd;
+	font:bold 16px verdana;
+	border-bottom:6px solid transparent;
+	margin:10px;
+	padding: 100px 10px 0px 10px;
+
+
+}
+#menu ul a:hover{
+	border-bottom:4px solid #6e6e6e;
+}
+
+#imagen{
+
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(images/contact-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 140px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+}
+#imagen p{
+	font-size: 30px;
+	color:  #ffffff ;
+	position: relative;
+	text-align: center;
+
+}
+h2{
+	    color: #ffffff;
+    font-family: "RalewayHeavy";
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 62px;
+    margin: 0;
+    padding: 148px 20px;
+    position: relative;
+    text-transform: uppercase;
+    word-wrap: break-word;
+
+}
+
+
+
+#titulo h3{		
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #222222;
+    font-family: "RalewayHeavy";
+    font-size: 36px;
+    margin-top: 0;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+#padding{
+	    padding-bottom: 60px;
+    padding-top: 60px;
+
+}
+
+p{
+	    color: #a6a6a6;
+    font-style: italic;
+    letter-spacing: 0.8px;
+    margin: 0;
+
+}
+#padding2{
+	    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+
+#form h3{
+	background-position: right;
+    background-repeat: no-repeat;
+    color: #222222;
+    font-family: "RalewayHeavy";
+    font-size: 26px;
+    margin-top: 0;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+ hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+     border-right-color: currentcolor;
+border-right-style: none;
+border-right-width: 0px;
+border-bottom-color: currentcolor;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-left-color: currentcolor;
+border-left-style: none;
+border-left-width: 0px;
+border-image-outset: 0;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+    border-top: 1px solid #eee;
+    border-top-color: rgb(238, 238, 238);
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 0;
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+}
+.celda-formulario {
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #666;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    height: 45px;
+    padding-left: 15px;
+    width: 40%;
+}
